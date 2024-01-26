@@ -10,7 +10,7 @@ public class ColorMode
     [KernelFunction, Description("画面モードの状態を取得します。")]
     public string GetMode()
     {
-        return IsOn ? "黄色" : "通常";
+        return IsOn ? "画面モードは黄色モード" : "画面モードは通常モード";
     }
 
     [KernelFunction, Description("画面モードを切り替えます。")]
